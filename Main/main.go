@@ -18,7 +18,7 @@ import (
 
 func main() {
 	//TODO: Remove loadEnv() in production, and set env variables
-	//loadEnv()
+	loadEnv()
 	port := getEnv("PORT", "50051")
 	host := "localhost"
 	lis, err := net.Listen("tcp", host+":"+port)
