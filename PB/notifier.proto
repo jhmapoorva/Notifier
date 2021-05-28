@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package PB.pb;
+option go_package="/Service";
+
+/*
+Session is a byte array, parse it to JSON.
+*/
+message NotifyRequest {
+  bytes Session = 1;
+}
+
+/*
+Return true if successful request.
+*/
+message NotifyResponse {
+  bool Success = 1;
+}
+
+service Endpoints {
+  rpc Notify(NotifyRequest) returns (NotifyResponse);
+}
