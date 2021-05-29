@@ -1,17 +1,25 @@
 ##Notifier
+
 ###Setup
+
 ####Requirements
+
 - [Go>=1.16](https://golang.org/doc/install)
 - [Protobuf](https://developers.google.com/protocol-buffers/)
   - Follow instruction the gRPC guide [here](https://grpc.io/docs/languages/go/quickstart/) to install
+
 ####Install dependencies
 - `go mod download`
+
 ###Run
 - `go run Main/main.go`
+
 ####Connecting and testing locally
 I would recommend using tools such as [evans](https://github.com/ktr0731/evans) to connect to the server and test it out as it is a gRPC project and so tools such as `Postman` will not work.
+
 ###About
 This project uses the [gRPC](https://grpc.io) framework on [Go](http://golang.org) to communicate between the servers.
+
 ####Architecture
 ![img.png](ReadmeImages/systems_architecture.png)
 
