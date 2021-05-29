@@ -28,3 +28,7 @@ This project uses the [gRPC](https://grpc.io) framework on [Go](http://golang.or
 
 ### What is project lifeline?
 The aim of this project is to build a distributed CoWIN polling system so that we can expand slot opening notifications to the entire country at once with extremely high update frequencies. The main issue most developers like us are having with expanding to the whole country is scalability due to costs, therefore by developing a distributed system, so that public can help poll data, it will help us expand easily and achieve extremely high polling frequencies.
+
+### Community 
+You can join the discord server [here](https://discord.gg/HuFApqaz5F) and join the conversation.
+
